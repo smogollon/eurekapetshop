@@ -281,7 +281,7 @@ h2{
 
 .historyTitle{
 	text-align: center;
-	font-size: 20px;
+	font-size: 15px;
 	margin-top: 0;
 	text-transform: uppercase;
 	font-family: titillium web, bahnschrift;
@@ -295,72 +295,68 @@ h2{
 }
 
 /*En nosotros imagen de dexter*/
-.container, .box, .content, .redes-sociales{
-	width: 	100%;
-	margin: 0;
-	padding: 0;
-	box-sizing: border-box;	
+
+.profile-area{
+	padding: 50px 0;
 }
 
-.container{
-	max-width: 1150px;
-	margin: auto;
-	margin-top: 50px;
-	text-align: center;	
-	color: 	#505050;
-	line-height: 1.7;
+.card{
+	box-shadow: 0 0 30px rgba(0,0,0,0.5);
+	overflow: hidden;
+	border-radius: 15px;
 }
 
-.content{
-	display: flex;
-}
-
-.box figure{
-	margin-bottom: 20px;
-	position: relative;	
-}
-
-.box figure img{
-	width: 	250px;
+.img2 img{
+	position: relative;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 250px;
 	height: 250px;
-	border-radius: 	50%;
-	object-fit: cover;	
+	border-radius: 50%;
+	object-fit: cover;
+	border: 7px solid #fff;
+	margin-top: 10px;
 }
 
-.redes-sociales{
-	position: 	absolute;	
-	bottom:0;
-	left:0;
-	background: rgba(255,255,255,0.7);
-	height: 0%;
-	line-height: 260px;
-	transition: all 500ms ease;
-	opacity: 0;
-	visibility: hidden;	
+.card:hover .img2 img{
+	border-color: #2EA7DF;
+	transition: .7s;
 }
 
-.box:hover .redes-sociales{
-	opacity: 1;
-	visibility: visible;
-	height: 100%;
+.main-text{
+	padding: 10px 0;
+	text-align: center;
 }
 
-.redes-sociales a{
-	text-decoration: none;
-	padding: 5px;
-	font-size: 22px;
-	color: 	#989898;
-	transition: all 500ms ease;
+.main-text h4{
+	text-transform: uppercase;
+	font-weight: 900;
+	font-size: 20px;
+	margin: 0 0 10px;
 }
 
-.redes-sociales a:hover{
-	color: 	#2EA7DF;
+.main-text p{
+	font-size: 16px;
 }
 
-.box:hover h4{
-	color: 	#2EA7DF;
+.socials{
+	text-align: center;	
+	padding-bottom: 20px;
 }
 
+.socials i{
+	font-size: 30px;
+}
+
+.socials i:hover{
+	color: #2EA7DF;
+}
+
+.card-text{
+	font-size: 15px;
+	font-family: dubai, courier prime, courier new;
+}
 
 /* cards con BEM */
 
