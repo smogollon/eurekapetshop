@@ -103,57 +103,27 @@ footer {
 
 /*index*/
 
-/*cuadros informativos en index*/
-
-.infoCards{
-	display: grid;
-	grid-template-columns: 200px 200px;
-	grid-column-gap: 10px;
-	justify-content: center;
-	align-items: center;
-	font-size: 15px;
-	font-weight: bold;
-	text-align: center;
-	font-family: dubai, courier prime, courier new;
-}
-
-.infoCards > * div:hover {
-	box-shadow: 0px 10px 25px rgba(0,0,0,0.50);
-}
 
 
 /*productos*/
 
-#productos .col-lg-4{
-	padding: 25px;
+.productos .card{
+	border-radius: 5px;
+	padding: 20px;
+	box-shadow: 0 0 30px rgba(0,0,0,0.5);
+	overflow: hidden;
+	margin-bottom: 50px;
 }
 
-#productos img{
-	width: 200px;
-	/*margin-left: 90px;*/
+/* Blog */
+
+.blog .card{
+	border-radius: 5px;
+	padding: 20px;
+	box-shadow: 0 0 30px rgba(0,0,0,0.5);
+	overflow: hidden;
+	margin-bottom: 50px;
 }
-
-/*.productos h3{
-	font-size: 1em;
-	text-align: center;
-	font-family: titillium web, bahnschrift;
-}
-
-.productos h4{
-	font-size: 15px;
-	text-align: center;
-	font-family: titillium web, bahnschrift;
-	color: #5A5A5A;
-}
-.productos p{
-	font-size: 15px;
-	font-weight: bold;
-	text-align: center;
-	font-family: dubai, courier prime, courier new;
-}*/
-
-
-
 
 /*Contacto*/
 
@@ -267,7 +237,7 @@ footer {
 	}
 }
 
-/*NOSOTROS*/
+/* Nosotros */
 
 .contentH{
 	max-width: 1170px;
@@ -294,9 +264,8 @@ footer {
 
 /*En nosotros imagen de dexter*/
 
-
-.card{
-	border-radius: 15px;
+.profile .card{
+	border-radius: 5px;
 	padding: 20px;
 	box-shadow: 0 0 30px rgba(0,0,0,0.5);
 	overflow: hidden;
@@ -338,8 +307,6 @@ footer {
 	font-family: dubai, courier prime, courier new;
 }
 
-
-/* cards con BEM */
 
 
 
