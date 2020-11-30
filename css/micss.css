@@ -32,20 +32,73 @@ h2{
 }
 
 /*footer*/
-/*.container {
-  width: auto;
-  max-width: 680px;
-  padding: 20px;
-}
-*/
-.footer {
-  background-color: #343a40;
+footer {
+	width: 100%;
+	font-family: dubai, courier prime, courier new;
+	background: #111;
+	color: #d9d9d9;
+  /*background-color: #343a40;
   font-family: dubai, courier prime, courier new;
   text-align: center;
-  color: #fff;
+  color: #fff;*/
 }
-/**/
 
+.main-content{
+	display: flex;
+}
+
+.main-content .box{
+	flex-basis: 50%;
+	padding: 10px 20px;
+}
+
+.box h3{
+	font-size: 1.125rem;
+	font-weight: 600;
+	text-transform: uppercase;
+	font-family: titillium web, bahnschrift;
+}
+
+.box .FContent{
+	margin: 20px 0 0 0;
+}
+
+.box .FContent p{
+	text-align: justify;
+}
+
+.left .FContent .FootSocial{
+	margin: 20px 0 0 0;
+}
+
+.left .FContent .FootSocial a{
+	padding: 0 2px;
+}
+
+.left .FContent .FootSocial a span{
+	height: 40px;
+	width: 40px;
+	background: #1a1a1a;
+	line-height: 40px;
+	text-align: center;
+	font-size: 18px;
+	border-radius: 5px;
+}
+
+.box form button{
+	background: #F1D731;
+	border: 0;
+	padding: 10px;
+	font-weight: bold;	
+}
+
+.box form button:hover,
+.box form button:focus{
+	background: #fff;
+	color: #000;
+	transition: background-color .3s ease-out;
+	outline: 0;
+}
 
 /*index*/
 
