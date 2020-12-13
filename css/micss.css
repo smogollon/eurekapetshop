@@ -235,6 +235,11 @@ footer {
 		padding: 1em;
 		text-align: left;
 	}
+
+	.map{
+		padding: 20px;
+	}
+
 }
 
 /* Nosotros */
@@ -264,12 +269,15 @@ footer {
 
 /*En nosotros imagen de dexter*/
 
+.profile{
+	padding: 20px;
+}
+
 .profile .card{
 	border-radius: 5px;
-	padding: 20px;
+	padding: 20px 20px;
 	box-shadow: 0 0 30px rgba(0,0,0,0.5);
 	overflow: hidden;
-	margin-bottom: 50px;
 }
 
 .img2 img{
