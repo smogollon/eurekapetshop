@@ -33,10 +33,30 @@ h2{
 
 /*index*/
 
-.carousel{
+
+.carousel{ /*carousel*/
 	padding-top: 40px;
 	padding-bottom: 20px;
+} 
 
+.portafolio-container{ /*portafolio*/
+	position: 	relative;
+	overflow: 	hidden;	
+	margin: 10px 0;
+	border-radius: 2px;	
+}
+
+
+.portafolio-container img{
+	-moz-transition:all 0.8s;
+	-webkit-transition:all 0.8s;
+	transition: 	all 0.8s;
+}
+
+.portafolio-container:hover img{
+	-moz-transform: scale(1.2);
+	-webkit-transform: scale(1.2);
+	transform: scale(1.2);
 }
 
 /*footer*/
