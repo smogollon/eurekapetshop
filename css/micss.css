@@ -23,7 +23,7 @@ h2{
 .subtitulos{
 	text-align: center;
 	font-size: 	40px;
-	color: black;
+	color: 1111;
 	margin-top: 70px;
 	letter-spacing: 5px;
 	text-transform: uppercase;
@@ -39,13 +39,30 @@ h2{
 	padding-bottom: 20px;
 } 
 
-.portafolio-container{ /*portafolio*/
-	position: 	relative;
-	overflow: 	hidden;	
-	margin: 10px 0;
-	border-radius: 2px;	
+/*portafolio*/
+
+.tituloPortafolio{
+	text-align: center;
+	font-size: 	40px;
+	color: #111;
+	margin-top: 50px;
+	font-family: titillium web, bahnschrift;
 }
 
+#portafolio p{
+	text-align: center;
+	font-size: 	20px;
+	color: #746B6B;
+	margin-top: 0;
+	font-family: dubai, courier prime, courier new;
+}
+
+.portafolio-container{ 
+	position: 	relative;
+	overflow: 	hidden;	
+	margin: 13px 0;
+	border-radius: 2px;	
+}
 
 .portafolio-container img{
 	-moz-transition:all 0.8s;
