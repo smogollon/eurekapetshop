@@ -33,7 +33,13 @@ h2{
 
 /*index*/
 
+.cart a{
+	margin-right: 15px;
+	color: #fff;
+}
 
+
+}
 .carousel{ /*carousel*/
 	padding-top: 40px;
 	padding-bottom: 20px;
