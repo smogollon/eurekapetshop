@@ -233,9 +233,13 @@ footer{
 .productos .card{
 	border-radius: 5px;
 	padding: 20px;
-	box-shadow: 0 0 30px rgba(0,0,0,0.5);
 	overflow: hidden;
 	margin-bottom: 50px;
+	min-width: 300px;
+}
+
+.productos .card:hover{
+	box-shadow: 0 0 30px rgba(0,0,0,0.5);
 }
 /*Fin de productos*/
 
@@ -243,9 +247,17 @@ footer{
 .blog .card{
 	border-radius: 5px;
 	padding: 20px;
-	box-shadow: 0 0 30px rgba(0,0,0,0.5);
 	overflow: hidden;
 	margin-bottom: 50px;
+	min-width: 350px;
+}
+
+.blog .card:hover{
+	box-shadow: 0 0 30px rgba(0,0,0,0.5);
+}
+
+.blog h3{
+	font-size: 20px;
 }
 /*Fin de Blog*/
 
