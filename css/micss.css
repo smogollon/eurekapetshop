@@ -1,6 +1,6 @@
 body{
   	background: linear-gradient(to top, #fceabb, #F1D731);
-	font-family: dubai, courier prime, courier new;
+	font-family: dubai, corbel, gadugi;
 	margin: 0 !important;
 	padding: 0 !important;
 }
@@ -28,30 +28,31 @@ h2{
 	letter-spacing: 5px;
 	text-transform: uppercase;
 	font-family: titillium web, bahnschrift;
-
 }
 
 /*index*/
-
-.cart a{
+/*Shopping cart en navbar*/
+.ShoppingCart a{
 	margin-right: 15px;
 	color: #fff;
 }
 
-
+.ShoppingCart a:hover{
+	color: #F1D731;
 }
+/*Fin de hopping cart en navbar*/
+
 .carousel{ /*carousel*/
 	padding-top: 40px;
 	padding-bottom: 20px;
 } 
+/*Fin de carousel en index*/
 
-/*portafolio*/
-
+/*Portafolio*/
 .tituloPortafolio{
 	text-align: center;
 	font-size: 	40px;
 	color: #111;
-	margin-top: 50px;
 	font-family: titillium web, bahnschrift;
 }
 
@@ -60,7 +61,7 @@ h2{
 	font-size: 	20px;
 	color: #746B6B;
 	margin-top: 0;
-	font-family: dubai, courier prime, courier new;
+	font-family: dubai, corbel, gadugi;
 }
 
 .portafolio-container{ 
@@ -81,11 +82,90 @@ h2{
 	-webkit-transform: scale(1.2);
 	transform: scale(1.2);
 }
+/*Fin de portafolio en index*/
+
+/*infocards*/
+.InfoCards{
+	padding: 60px 0;
+}
+
+.carta .card{
+	border: none;
+	background: #1B2631;
+}
+
+.icon{
+	width: 	150px;
+	height: 150px;
+	display: inline-block;
+	overflow: hidden;	
+}
+
+.carta:hover .side-two{
+	transform: rotateY(0deg);
+	border-radius: 5px;
+}
+
+.carta:hover .side-one{
+	transform: rotateY(180deg);
+}
+
+.contentArea{
+	transform: 	perspective(1000px);
+	transition: 1s;
+	transform-style: preserve-3d;
+	position: relative;	
+}
+
+.contentArea h3{
+	color: #fff;
+	font-family: titillium web, bahnschrift;
+}
+
+.contentArea p{
+	color: grey;
+	font-family: dubai, corbel, gadugi;
+	text-align: center;	
+}
+
+.iconsInfo{
+	padding: 50px;
+	color: #fff;	
+}
+
+.side-one{
+	position: relative;	
+	transform: rotateY(0deg);
+	z-index: 2;
+	margin-bottom: 30px;
+}
+
+.side-two{
+	position: absolute;	
+	top: 	0;
+	left: 	0;
+	background: #fff;
+	transform: rotateY(-180deg);
+}
+
+.side-one,
+.side-two{
+	backface-visibility: hidden;	
+	transition: 1s;
+	transform-style: preserve-3d;
+}
+
+.side-one .card,
+.side-two .card{
+	min-height: 200px;
+}
+/*Fin de infocards en index*/
+/*Fin del index*/
 
 /*footer*/
 footer{
 	width: 100%;
-	font-family: dubai, courier prime, courier new;
+	font-family: dubai, corbel, gadugi;
 	background: #212121;
 	color: #d9d9d9;
 }
@@ -147,13 +227,9 @@ footer{
 	transition: background-color .3s ease-out;
 	outline: 0;
 }
+/*Fin del footer*/
 
-/*index*/
-
-
-
-/*productos*/
-
+/*Productos*/
 .productos .card{
 	border-radius: 5px;
 	padding: 20px;
@@ -161,9 +237,9 @@ footer{
 	overflow: hidden;
 	margin-bottom: 50px;
 }
+/*Fin de productos*/
 
 /* Blog */
-
 .blog .card{
 	border-radius: 5px;
 	padding: 20px;
@@ -171,9 +247,9 @@ footer{
 	overflow: hidden;
 	margin-bottom: 50px;
 }
+/*Fin de Blog*/
 
 /*Contacto*/
-
 /*Cuadro contacto*/
 .wrap{
 	max-width: 1170px;
@@ -181,9 +257,8 @@ footer{
 	margin-right: auto;	
 	padding: 1.5em;
 	color: 	white;
-	font-family: dubai, courier prime, courier new;
+	font-family: dubai, corbel, gadugi;
 }
-
 
 .cuadroContacto{
 	box-shadow: 0 0 20px 0 rgba(255, 255, 255, .3);
@@ -210,7 +285,6 @@ footer{
 	margin: 0;
 	padding: 1em;
 }
-
 
 .contactForm form button,
 .contactForm form input,
@@ -258,10 +332,9 @@ footer{
 .contactInfo ul li{
 	padding: .3em;
 }
-
+/*Fin de Cuadro contacto*/
 
 /*Large screen contactos*/
-
 @media (min-width: 600px){
 	body{
 		padding: 0 4rem;
@@ -283,15 +356,15 @@ footer{
 		text-align: left;
 	}
 }
+/*Fin de contacto*/
 
 /* Nosotros */
-
 .contentH{
 	max-width: 1170px;
 	margin-left: auto;	
 	margin-right: auto;	
 	padding: 1.5em;
-	font-family: dubai, courier prime, courier new;
+	font-family: dubai, corbel, gadugi;
 }
 
 .historyTitle{
@@ -306,11 +379,10 @@ footer{
 	font-size: 1em;
 	font-weight: normal;
 	text-align: center;
-	font-family: dubai, courier prime, courier new;
+	font-family: dubai, corbel, gadugi;
 }
 
-/*En nosotros imagen de dexter*/
-
+/*Profile dexter*/
 .profile{
 	padding: 20px;
 }
@@ -354,8 +426,10 @@ footer{
 
 .card-text{
 	font-size: 15px;
-	font-family: dubai, courier prime, courier new;
+	font-family: dubai, corbel, gadugi;
 }
+/*Fin de Profile dexter*/
+/*Fin de Nosotros*/
 
 
 
